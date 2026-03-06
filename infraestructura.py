@@ -15,7 +15,7 @@ class MaterialesInfraestructura():
                         if input_dict["estado_fisico"] not in ("nuevo","excelente","bueno","regular","deteriorado","inservible"): raise ValueError
                 
                     case "LibroElectronico":
-                        input_dict["tamaño_mb"] = float(input("Ingrese tamaño MB del Material :"))
+                        input_dict["tamaño_mb"] = float(input("Ingrese tamaño GB del Material :"))
                         print("Categorias de Formato \n" \
                         "PDF,EPUB,MOBI,AZW,DOCX")
                         input_dict["formato"] = input("Ingrese formato del Material :")
