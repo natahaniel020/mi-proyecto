@@ -7,7 +7,7 @@ class MaterialesInfraestructura():
             try:
                 match input_dict("material"):
                     case "LibroFisico":
-                        input_dict["num_paginas"] = int(input("Ingrese el numero de paginas en numeros enteros :"))
+                        input_dict["num_paginas"] = int(input("Ingrese el numero de paginas en numeros romano :"))
                         input_dict["editorial"] = input("Ingree la Editorial :")
                         print("Categorias de estado fisico \n" \
                         "nuevo,excelente,bueno,regular,deteriorado,inservible")
